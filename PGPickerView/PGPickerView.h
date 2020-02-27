@@ -22,6 +22,7 @@ typedef NS_ENUM(NSUInteger, PGPickerViewLineType) {
 
 @property(nonatomic, strong) UIColor *lineBackgroundColor;          // default is [UIColor grayColor]
 @property (nonatomic, assign) CGFloat lineHeight;                   // default is 0.5
+@property (nonatomic, assign) CGFloat lineWidth;    // 仅 type 为 PGPickerViewLineTypelineSegment 有效
 
 @property(nonatomic, strong) UIColor *verticalLineBackgroundColor; // default is [UIColor grayColor] type3 vertical line
 @property (nonatomic, assign) CGFloat verticalLineWidth; // default is 0.5
